@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "current_feature": "skeleton-setup",
+  "current_feature": "react-frontend",
   "features": [
     {
       "id": "skeleton-setup",
@@ -39,14 +39,19 @@
     {
       "id": "react-frontend",
       "title": "React frontend",
-      "status": "planned",
+      "status": "in_progress",
       "acceptance": [
         "React application builds and runs",
         "Basic UI components displayed",
         "Application can be accessed via browser"
       ],
-      "implementation": [],
-      "tests": []
+      "implementation": [
+        "react-app/ (Vite + React)"
+      ],
+      "tests": [
+        "React app dev server starts and HMR works",
+        "Counter component renders and increments"
+      ]
     }
   ]
 }
