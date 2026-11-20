@@ -1,4 +1,6 @@
-# lumen-studio-146
+# lumen-studio-146 — Alan Vo
+
+Current version: `1.1.0`.
 
 > Work in progress. This checkpoint may be incomplete or fail tests. See PLAN.md and STATUS.md before use.
 

@@ -4,7 +4,7 @@ Each round completes one feature or repair. Future items are planned, not implem
 
 ## Current round
 
-skeleton-setup
+react-frontend
 
 ## Roadmap
 
@@ -36,12 +36,16 @@ Tests: `check_fastapi.py`
 
 ### react-frontend — React frontend
 
-Status: planned
+Status: in_progress
 
 Acceptance:
 - React application builds and runs
 - Basic UI components displayed
 - Application can be accessed via browser
+
+Implementation: `react-app/ (Vite + React)`
+
+Tests: `React app dev server starts and HMR works`, `Counter component renders and increments`
 
 ---
 
